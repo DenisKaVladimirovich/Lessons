@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading;
 
 namespace Lesson1
@@ -12,6 +12,7 @@ namespace Lesson1
             Thread.Sleep(3000);
             Console.WriteLine("Привет, {0}, {1}, {2}, {3}", name, "Maria", "Vladislav", "Ivan");
             Console.ReadKey();
+            Console.WriteLine("HelloFucking world!");
         }
     }
 }
